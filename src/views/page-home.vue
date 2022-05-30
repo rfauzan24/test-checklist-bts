@@ -7,6 +7,7 @@
       <div class="row">
         <form @submit.prevent="submitTodo" class="col s6 offset-s3">
           <div class="input-field">
+            <i class="material-icons prefix">list</i>
             <textarea v-model="newTodo" id="icon_prefix2" class="materialize-textarea"></textarea>
             <label for="icon_prefix2">What to do?</label>
           </div>
